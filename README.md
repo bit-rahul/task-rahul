@@ -16,25 +16,34 @@ Make sure you have python3 installed in your machine.
 # First, let's create the python virtual environment to isolate our projects:
 
 On Linux:
+
 python3 -m venv environments
+
 Then, activate it:
+
 source environments/bin/activate
 
 On Windows(Check pip is installed, generally comes with python3):
+
 pip install virtualenv
 virtualenv env
 
    On Windows, virtualenv (venv) creates a batch file called 
+      
       \env\Scripts\activate.bat
 
    To activate virtualenv on Windows, and activate the script is in the Scripts folder :
+          
           \pathto\env\Scripts\activate
-    Example: 
-          C:\Users\'Username'\venv\Scripts\activate.bat
+    
+   Example: C:\Users\'Username'\venv\Scripts\activate.bat
 
    Install VirtualEnvWrapper-win
-          git clone git://github.com/davidmarble/virtualenvwrapper-win.git
+    
+           git clone git://github.com/davidmarble/virtualenvwrapper-win.git
+   
    We then cd to the virtualenvwrapper-win folder and run: 
+          
           python setup.py install  
 
 # After virtual environment for python project is setup:
