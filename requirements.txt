@@ -1,0 +1,5 @@
+django
+djangorestframework
+djangorestframework-jwt
+django-cors-headers
+gunicorn==19.9.0
