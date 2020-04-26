@@ -1,6 +1,10 @@
 # task-rahul
 A Django + React based contact management app.
 
+# App-Login Credentials
+ Username: rahul
+ Password: rahul123
+
 # This project comprises of Three parts:
 
 contacts: the Django project containing the REST API, along with all the back-end database code;
